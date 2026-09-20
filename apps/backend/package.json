@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "format": "prettier --write src/**/*.js",
+    "start": "node src/server.js",
+    "generate": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "black": "^0.3.0",
+    "clang-format": "^1.8.0",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "google-java-format": "^2.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.0",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^7.0.3",
+    "prisma": "^6.7.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3"
+  }
+}
